@@ -122,7 +122,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: `${PATHS.src}/index.html`,
       filename: './index.html',
-      // inject: false,
+      inject: false,
       // minify: false
     }),
     new CopyWebpackPlugin({
