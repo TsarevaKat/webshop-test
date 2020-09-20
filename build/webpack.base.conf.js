@@ -123,7 +123,7 @@ module.exports = {
       template: `${PATHS.src}/index.html`,
       filename: './index.html',
       inject: false,
-      // minify: false
+      minify: false
     }),
     new CopyWebpackPlugin({
       patterns: [{
